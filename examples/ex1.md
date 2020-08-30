@@ -3,7 +3,7 @@
 Open a terminal and direct into the GoServer repo, specfically the Server file then run statfile.go
 
 ```
-$ cd GoServe/server
+$ cd networkdynamics/server
 ```
 ```
 server $ go run statfile.go
