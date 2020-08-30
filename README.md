@@ -1,8 +1,8 @@
 # networkdynamics
-# GoServe
+# Go Server
 General web server for user display and file serving in golang.
 
-## Running GoServe
+## Running the Go Server
 
 1) If you do not have Golang installed, visit https://golang.org/doc/install and install it.
 
@@ -15,13 +15,13 @@ $ brew install git
 3) After that, clone the repository to your machine:
 
 ```
-$ git clone https://github.com/PartialDifferentials/GoServe
+$ git clone https://github.com/hassangaber/networkdynamics/
 ```
 
 Next, open the directory on your terminal by typing in:
 
 ```
-$ cd GoServe/Server
+$ cd networkdynamics/server
 ```
 
 Now, you are officially in GoServe.
@@ -37,7 +37,7 @@ $ go run [FILENAME].go
 http://localhost:8080/home
 
 And the file or printed string should appear!
-# Offset
+# The Diagnostic Tools
 Network dynamics for all platforms.
 
 Tools include:
@@ -57,13 +57,14 @@ Tools include:
  3) After doing so, to install Diagnostic Tools, type in:
  
  ```
- $ git clone https://github.com/partialdifferentials/offset
+ $ git clone https://github.com/hassangaber/networkdynamics/
  ```
  
  4) You should have the Golang enviroment setup on your machine at this stage. In order to run the IP tool, for example, type in:
  
  ```
- $ go run /Offset/src/Local_IP.go
+ $ cd networkdynamics/diagnostictools
+ $ go run [FILENAME].go
  ```
  And it should run on your machine! This goes for any other file in the repository, just change the file name.
  
